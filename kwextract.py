@@ -73,7 +73,7 @@ def process_video(video_path):
     word_freq = clean_and_count_words(transcription)
     save_output(transcription, word_freq)
     os.remove(audio_path)
-    print("✅ Transcription and keyword extraction completed.")
+    print("Transcription and keyword extraction completed.")
 
-# Example usage
-process_video("Magnet Career_Introduction Video_1.MP4")
+
+process_video("[Video__Path]")
